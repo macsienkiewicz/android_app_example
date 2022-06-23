@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bn_1"
+        android:icon="?android:attr/fastScrollPreviewBackgroundRight"
+        android:title="@string/fragment1" />
+    <item
+        android:id="@+id/bn_2"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="@string/fragment2"
+        />
+    <item
+        android:id="@+id/bn_3"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="@string/fragment3"
+        />
+    <item
+        android:id="@+id/bn_4"
+        android:icon="?android:attr/fastScrollPreviewBackgroundLeft"
+        android:title="@string/fragment4" />
+</menu>

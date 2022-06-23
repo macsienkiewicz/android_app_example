@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Exercise4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment1">Fragment 1</string>
+    <string name="fragment2">Fragment 2</string>
+    <string name="fragment3">Fragment 3</string>
+    <string name="fragment4">Fragment 4</string>
+    <string name="user">User</string>
+    <string name="info">Some information</string>
+    <string name="name">Your name:</string>
+    <string name="name_edit">Maciek</string>
+    <string name="info_str">Write some info:</string>
+    <string name="info_edit">Info…</string>
+    <string name="red">R: 0</string>
+    <string name="green">G: 0</string>
+    <string name="blue">B: 0</string>
+    <string name="rate">0.0/5.0</string>
+    <string name="rate_str">How do you rate this App?</string>
+    <string name="img1">Blue Android</string>
+    <string name="img2">Green Android</string>
+    <string name="img3">Red Android</string>
+    <string name="save">Save</string>
+    <string name="set">Set</string>
+    <string name="cancel">Cancel</string>
+</resources>

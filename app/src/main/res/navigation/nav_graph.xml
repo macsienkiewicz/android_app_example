@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_1">
+
+    <fragment
+        android:id="@+id/fragment_1"
+        android:name="com.example.exercise4.Fragment1"
+        android:label="Fragment1"
+        >
+        <action
+            android:id="@+id/action_fragment_1_to_fragment_2"
+            app:destination="@id/fragment_2" >
+        </action>
+        </fragment>
+
+    <fragment
+        android:id="@+id/fragment_2"
+        android:name="com.example.exercise4.Fragment2"
+        android:label="Fragment2"
+        >
+        <action
+            android:id="@+id/action_fragment_2_to_fragment_3"
+            app:destination="@id/fragment_3" >
+
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_3"
+        android:name="com.example.exercise4.Fragment3"
+        android:label="Fragment3"
+        >
+        <action
+            android:id="@+id/action_fragment_3_to_fragment_4"
+            app:destination="@id/fragment_4" >
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_4"
+        android:name="com.example.exercise4.Fragment4"
+        android:label="Fragment4"
+        />
+
+</navigation>
